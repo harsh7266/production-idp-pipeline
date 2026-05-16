@@ -1,0 +1,41 @@
+2026-05-15 16:32:34,203 - INFO - IDP_Oversight - Classifier engine initialized. Ready for inference.
+2026-05-15 16:32:34,205 - ERROR - fastapi - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-05-15 16:37:56,394 - INFO - IDP_Oversight - Classifier engine initialized. Ready for inference.
+2026-05-15 16:37:56,396 - ERROR - fastapi - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-05-15 16:38:19,129 - INFO - IDP_Oversight - Classifier engine initialized. Ready for inference.
+2026-05-15 16:38:19,130 - ERROR - fastapi - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-05-15 16:39:15,398 - INFO - IDP_Oversight - Classifier engine initialized. Ready for inference.
+2026-05-16 20:12:51,532 - INFO - IDP_Oversight - Classifier engine initialized. Ready for inference.
+2026-05-16 20:23:10,955 - INFO - IDP_Oversight - Sub-system 'ingest_document' executed in 0.0ms.
+2026-05-16 20:26:03,476 - INFO - IDP_Oversight - Classifier engine initialized. Ready for inference.
+2026-05-16 20:26:21,996 - INFO - IDP_Oversight - --- New Ingestion Request ---
+2026-05-16 20:26:21,996 - INFO - IDP_Oversight - Processing raw text payload.
+2026-05-16 20:26:21,996 - INFO - IDP_Oversight - Starting text normalization and extraction.
+2026-05-16 20:26:22,025 - INFO - IDP_Oversight - Data structured successfully into Pandas DataFrame.
+2026-05-16 20:26:22,025 - INFO - IDP_Oversight - Sub-system 'extract_and_clean' executed in 28.75ms.
+2026-05-16 20:26:22,025 - INFO - IDP_Oversight - Running inference on extracted document features.
+2026-05-16 20:26:22,032 - INFO - IDP_Oversight - Inference complete: Invoice (Confidence: 0.92)
+2026-05-16 20:26:22,032 - INFO - IDP_Oversight - Sub-system 'predict' executed in 6.88ms.
+2026-05-16 20:26:22,032 - INFO - IDP_Oversight - Pipeline execution complete. Returning response.
+2026-05-16 20:26:26,386 - INFO - IDP_Oversight - Classifier engine initialized. Ready for inference.
+2026-05-16 20:26:35,296 - INFO - IDP_Oversight - --- New Ingestion Request ---
+2026-05-16 20:26:35,296 - INFO - IDP_Oversight - Processing raw text payload.
+2026-05-16 20:26:35,297 - INFO - IDP_Oversight - Starting text normalization and extraction.
+2026-05-16 20:26:35,297 - INFO - IDP_Oversight - Data structured successfully into Pandas DataFrame.
+2026-05-16 20:26:35,297 - INFO - IDP_Oversight - Sub-system 'extract_and_clean' executed in 0.87ms.
+2026-05-16 20:26:35,298 - INFO - IDP_Oversight - Running inference on extracted document features.
+2026-05-16 20:26:35,298 - INFO - IDP_Oversight - Inference complete: Invoice (Confidence: 0.92)
+2026-05-16 20:26:35,298 - INFO - IDP_Oversight - Sub-system 'predict' executed in 0.6ms.
+2026-05-16 20:26:35,298 - INFO - IDP_Oversight - Pipeline execution complete. Returning response.
